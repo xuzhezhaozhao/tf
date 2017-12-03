@@ -1,3 +1,5 @@
+import tensorflow as tf
+
 x = tf.constant([[1, 1, 1], [1, 1, 1]])
 tf.reduce_sum(x)  # 6
 tf.reduce_sum(x, 0)  # [2, 2, 2]
